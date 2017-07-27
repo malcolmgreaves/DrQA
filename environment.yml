@@ -1,6 +1,7 @@
 name: DrQA 
 channels:
  - conda-forge
+ - soumith
 dependencies:
   - python=3.6
   - numpy=1.11.*
@@ -10,6 +11,8 @@ dependencies:
   - cython=0.25.* 
   - pytest=3.1.*
   - coverage
+  - pytorch 
+  - torchvision
   - pip:
     - tqdm  
     - mypy
